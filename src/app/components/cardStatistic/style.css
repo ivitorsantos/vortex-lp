@@ -1,0 +1,42 @@
+.cardStatistic {
+    margin-right: 30px;
+    margin-top: 40px;
+    color: #04004d;
+    max-width: 255px;
+    min-width: 255px;
+    min-height: 370px;
+    max-height: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.cardStatistic span {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 5px solid #016392;
+    width: 30px;
+}
+
+.cardStatistic h2 {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.cardStatistic p {
+    margin-top: 13px;
+    color: #333;
+}
+
+.cardStatistic img {
+    margin-top: auto;
+}
+
+@media (max-width: 760px) {
+
+    .cardStatistic {
+       margin-top: 50px;
+    }
+
+}

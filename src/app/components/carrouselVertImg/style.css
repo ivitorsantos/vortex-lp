@@ -1,0 +1,22 @@
+.carrousel {
+    max-width: 960px;
+    margin-top: 50px;
+
+    overflow-x: hidden;
+    cursor: grab;
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    padding: 15px;
+}
+
+.item img {
+    width: auto;
+    object-fit: contain;
+    border-radius: 13px;
+    pointer-events: none;
+}

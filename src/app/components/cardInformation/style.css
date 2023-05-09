@@ -1,0 +1,31 @@
+.cardInformation {
+    border-left: 2px solid #858585;
+    padding: 0px 30px;
+}
+
+.cardInformation h2 {
+    font-size: 45px !important;
+    line-height: 45px !important;
+    color: #016392 !important;
+}
+
+.cardInformation p {
+    font-size: 15px;
+    line-height: 15px;
+    color: #252525;
+    margin-top: -5px;
+}
+
+@media (max-width: 760px) {
+
+    .business-performance h2 {
+        margin-bottom: 10px;
+    }
+
+    .cardInformation {
+        border-bottom: 2px solid #858585;
+        border-left: 0px;
+        padding: 0px 30px;
+        padding-top: 30px;
+    }
+}

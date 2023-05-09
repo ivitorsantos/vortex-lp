@@ -1,0 +1,117 @@
+
+.mainContent {
+    
+    background-color: #fff;
+    background-image: url('https://www.imagemhost.com.br/images/2023/05/05/hero.png') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+    
+    padding: 60px 0px 0px 30px;
+    
+}
+
+.mainContent h1 {
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.mainContent p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+}
+
+.mainContent a {
+    color: #fff;
+    font-size: 14px;
+
+    font-weight: 100;
+    font-style: italic;
+
+    
+    display: flex;
+    align-items: center;
+
+    margin: 35px 0px;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.mainContent a:hover {
+    opacity: 0.8;
+    transform: translateY(-4px);
+}
+
+.mainContent svg {
+    font-size: 30px;
+    margin-right: 4px;
+}
+
+.textContent {
+    max-width: 55%;
+}
+
+.textContent h1 span {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.logo h2{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.logo img{
+    width: 35px;
+    height: 35px;
+}
+
+.verifys-content {
+    margin-top: 13%;
+}
+
+.player-content {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    width: 45%;
+}
+
+.separator {
+    background-color: #f6f2f8;
+    width: 100%;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.call-actions {
+    display: flex;
+}
+
+.call-actions a {
+    margin-right: 35px;
+}
+
+@media (max-width: 760px) {
+    .mainContent {
+        padding: 50px 30px;
+    }
+
+   .mainContent h1 {
+        font-size: 35px;
+        line-height: 35px;
+   }
+}

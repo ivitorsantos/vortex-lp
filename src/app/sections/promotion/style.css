@@ -1,0 +1,72 @@
+
+.call-to-action {
+    padding: 80px 0px;
+    background-color: #f3f3f3;
+}
+
+.call-to-action .image-content {
+    width: 50%;
+}
+
+.callBoard {
+    width: 100%;
+    height: fit-content;
+    background-color:#ddd;
+    background-image:url('https://www.imagemhost.com.br/images/2023/05/09/bg-card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    padding: 100px 45px;
+
+    color: #fff;
+
+    -webkit-box-shadow: 0px -6px 16px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px -6px 16px 5px rgba(0,0,0,0.5);
+}
+
+
+.callBoard .text-content, .callBoard .image-content{
+    height: 100%;
+}
+
+.callBoard .text-content h2 {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.callBoard .text-content p {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.callBoard span {
+    color: #fde400;
+}
+
+.callBoard img {
+    height: 250px;
+    object-fit: contain;
+}
+
+@media (max-width: 760px) {
+    
+    .call-to-action {
+        margin: 30px;
+        padding: 10px 0px;
+    }
+    .call-to-action .image-content {
+        width: 100%;
+    }
+
+    .callBoard {
+        padding: 30px 45px;
+
+    }
+
+    .callBoard img {
+        width: 80%;
+        object-fit: contain;
+    }
+
+}

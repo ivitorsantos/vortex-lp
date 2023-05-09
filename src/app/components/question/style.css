@@ -1,0 +1,34 @@
+.question-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    text-align: left;
+}
+
+.question-flex:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.question {
+    margin-top: 25px;
+    border-top: 4px solid #d3d3d3;
+}
+
+.question h2{
+    color: blue;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.question p {
+    font-size: 13px;
+    color: black;
+    padding-left: 05px;
+}
+
+.question svg {
+    font-size: 45px;
+}

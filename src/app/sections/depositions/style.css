@@ -1,0 +1,19 @@
+.depositions {
+    background-color: #fff;
+
+    padding: 70px 0px;
+}
+
+
+.testimony-content {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 760px) {
+    .depositions {
+        padding: 30px 50px;
+
+    }
+
+}

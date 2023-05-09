@@ -1,0 +1,16 @@
+.verify {
+    color: #1d1d1d !important;
+
+    display: flex;
+
+    align-items: center;
+    font-weight: 800;
+}
+
+.verify svg {
+    background-color: #edf4ff !important;
+    padding: 8px;
+    border-radius: 50%;
+    color: green;
+    margin-top: 5px;
+} 

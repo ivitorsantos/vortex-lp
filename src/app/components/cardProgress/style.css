@@ -1,0 +1,42 @@
+.cardProgress {
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #04004d;
+    height: fit-content;
+    max-width: 355px;
+    min-width: 355px;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardProgress span {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 5px solid #016392;
+    width: 30px;
+}
+
+.cardProgress h2 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cardProgress p {
+    margin-top: 20px;
+    color: #333;
+}
+
+.cardProgress img {
+    margin-top: 20px;
+    
+}
+
+@media (max-width: 760px) {
+
+    .cardProgress {
+       margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,21 @@
+.miniplayer {
+    background-color: #1d1d1d;
+    height: 250px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 13px;
+}
+
+.miniplayer svg {
+    font-size: 55px;
+}
+
+.miniplayer:hover {
+    cursor: pointer;
+    box-shadow: #bebebe 0px 0px 8px 1px;
+}
+

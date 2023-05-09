@@ -1,0 +1,39 @@
+.asked {
+    padding: 70px 0px 120px 0px;
+    background-color: #fff;
+}
+
+.asked img {
+    height: 400px;
+    object-fit: cover;
+
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.askeds-content {
+    padding:0px 50px;
+}
+
+@media (max-width: 760px) {
+    .asked {
+        padding: 60px 30px;
+    }
+
+    .asked img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .askeds-content {
+        padding: 0px 0px;
+        margin-top: 50px;
+    }
+
+    .askeds-content h2 {
+        margin-top: 10px;
+    }
+}
