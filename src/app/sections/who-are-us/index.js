@@ -35,7 +35,7 @@ export default function WhoAreUs() {
                         <CardInformation data={'45M+'} description={'De visitas recebidas'} />
                     </div>
                     <div className='cta'>
-                        <ConsultingButton href={'#'} label={'Marcar consultoria gratuita'} selectColor={'#016392'} borderColor={'#016392'}/>
+                        <ConsultingButton href={'#'} label={'Consultoria Gratuita'} selectColor={'#016392'} borderColor={'#016392'}/>
                     </div>
                 </div>
             </section>

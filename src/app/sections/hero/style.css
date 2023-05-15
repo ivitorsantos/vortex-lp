@@ -1,18 +1,17 @@
-
 .mainContent {
-    
+
     background-color: #fff;
     background-image: url('https://www.imagemhost.com.br/images/2023/05/05/hero.png') !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:-5vh ;
+    background-position-y: -3vh;
 
-    height: 88vh;
-    
+    height: 93vh;
+
     color: #fff;
-    
+
     padding: 60px 0px 0px 30px;
-    
+
 }
 
 .mainContent h1 {
@@ -36,14 +35,13 @@
     font-weight: 100;
     font-style: italic;
 
-    
+
     display: flex;
     align-items: center;
 
     margin: 35px 0px;
 
     transition: all 0.3s ease-in-out;
-
 }
 
 .mainContent a:hover {
@@ -70,40 +68,37 @@
     margin-bottom: 23px;
 }
 
-.logo h2{
+.logo h2 {
     margin-left: 10px;
     text-transform: uppercase;
     font-size: 15px;
 }
 
-.logo img{
+.logo img {
     width: 35px;
     height: 35px;
 }
 
 .verifys-content {
     position: absolute;
-    bottom: 35px;
-}
-
-.verifys-content p {
-    padding: 0px 50px;
+    bottom: 28px;
+    display: flex;
 }
 
 .player-content {
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 
     width: 45%;
 }
 
 .separator {
     background-color: #f6f2f8;
-    width: 80%;
+    width: 80vw;
     height: 10px;
     position: absolute;
-    bottom: 9px;
+    bottom: 1px;
 }
 
 .call-actions {
@@ -116,11 +111,45 @@
 
 @media (max-width: 760px) {
     .mainContent {
-        padding: 50px 30px;
+        padding: 50px 25px;
+        background-position-y: -7vh;
+
     }
 
-   .mainContent h1 {
-        font-size: 35px;
-        line-height: 35px;
-   }
+    .mainContent h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .mainContent p {
+        margin-top: 3px;
+    }
+
+    .textContent {
+        min-width: 100%;
+    }
+
+    .player-content {
+        display: none;
+    }
+
+    .player-content {
+        margin-top: 3px !important;
+    }
+
+    .call-actions a {
+        margin-right: 15px;
+    }
+
+    .verifys-content {
+        display: flex;
+        flex-wrap: wrap;
+        bottom: 15px;
+        padding-left: 20px;
+        
+    }
+
+    .verifys-content p {
+        font-size: 14px;
+    }
 }

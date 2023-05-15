@@ -22,9 +22,10 @@ export default function Asked() {
                     <div className='askeds-content'>
                         <MiniTitle label={'Perguntas mais frequentes -'} />
                         <Title label={'Você tem alguma dúvida?'} colorText={'#04004d'} />
-                        <Question title={'Pergunta numero um?'} response={'Resposta numero um, resposta numero um, resposta numero um, resposta numero um'}/>
-                        <Question title={'Pergunta numero dois?'} response={'Resposta numero dois, resposta numero dois, resposta numero dois, resposta numero dois'}/>
-                        <Question title={'Pergunta numero tres?'} response={'Resposta numero dois, resposta numero dois, resposta numero dois, resposta numero dois'}/>
+                        <Question title={'Como vou receber a LP IEG?'} response={'Iremos manter contato via WhatsApp, discord ou zoom para conversarmos e discutirmos sobre sua necessidade. Apos finalizarmos todos os ajustes. De bonus vou configurar a pagina direto em sua hospedagem.'}/>
+                        <Question title={'Qual o preço da LP IEG?'} response={'Não temos um valor fixo para as lading page, tudo depende do que você vai precisar e de que combinarmos via WhatsApp.'}/>
+                        <Question title={'Qual o prazo de entrega?'} response={'O prazo de entrega é rápido, são poucos dias uteis, porem, tudo depende de como está nossa agenda, não perca tempo!'}/>
+                        <Question title={'Qual o seu contato?'} response={'Você pode entrar em contato via nosso email contato@vortexlp.com ou pelo botão do WhatsApp no canto inferior direito.'}/>
                     </div>
                 </div>
             </div>

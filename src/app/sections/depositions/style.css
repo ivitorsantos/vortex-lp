@@ -1,9 +1,7 @@
 .depositions {
     background-color: #fff;
-
     padding: 70px 0px;
 }
-
 
 .testimony-content {
     display: flex;
@@ -12,8 +10,11 @@
 
 @media (max-width: 760px) {
     .depositions {
-        padding: 30px 50px;
+        padding: 40px 20px !important;
+    }
 
+    .testimony-content {
+        flex-wrap: wrap;
     }
 
 }

@@ -11,7 +11,7 @@ import image2 from '../../img/2.jpg'
 import image3 from '../../img/3.jpg'
 import image4 from '../../img/4.jpg'
 
-const images = [image1, image2, image3, image4, image1, image2, image3, image4]
+const images = [image1, image2, image3, image4]
 
 export default function Portifolio() {
     return (
@@ -21,7 +21,7 @@ export default function Portifolio() {
                 <Title label={'VEJA ALGUMAS LPS DE SUCESSO.'} colorText={'#016392'} />
                 <p>Por motivos de motivos de segurança todo conteúdo em texto e imagens reais foram removidos.</p>
                 <div className='carrousel-content'>
-                    <CarrouselVertImg imagens={images} heightCarrousel={600}/>
+                    <CarrouselVertImg imagens={images} heightCarrousel={480}/>
                 </div>
             </div>
         </section>

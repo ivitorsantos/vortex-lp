@@ -1,5 +1,4 @@
 .cardStatistic {
-    margin-right: 30px;
     margin-top: 40px;
     color: #04004d;
     max-width: 255px;
@@ -8,8 +7,6 @@
     max-height: 370px;
     display: flex;
     flex-direction: column;
-    background-color: #f3f3f3;
-    border-radius: 5px;
 }
 
 .cardStatistic span {
@@ -25,8 +22,9 @@
 }
 
 .cardStatistic p {
-    margin-top: 13px;
+    margin-top: 15px;
     color: #333;
+    max-width: 93%;
 }
 
 .cardStatistic img {
@@ -37,6 +35,20 @@
 
     .cardStatistic {
        margin-top: 50px;
+       border-bottom: 2px #d1d1d1 solid;
+       width: 100%;
+
+       max-width: 100%;
+       min-width: 100%;
+       min-height: 370px;
+       max-height: 370px;
     }
 
+    .cardStatistic img {
+        margin-bottom: 30px;
+    }
+
+    .cardStatistic p {
+        font-size: 16px;
+    }
 }

@@ -67,4 +67,8 @@
     .business-performance h2 {
         margin-bottom: 30px;
     }
+
+    .cta {
+        text-align: center;
+    }
 }

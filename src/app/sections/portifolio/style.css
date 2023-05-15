@@ -4,6 +4,9 @@
     padding: 70px 0px;
 }
 
+.depositions p {
+    margin-top: 20px;
+}
 
 .testimony-content {
     display: flex;

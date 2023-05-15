@@ -12,7 +12,7 @@
     width: 100%;
     height: fit-content;
     background-color:#ddd;
-    background-image:url('https://www.imagemhost.com.br/images/2023/05/09/bg-card.png');
+    background-image:url('https://www.imagemhost.com.br/images/2023/05/15/bg-card.png');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -52,9 +52,9 @@
 @media (max-width: 760px) {
     
     .call-to-action {
-        margin: 30px;
-        padding: 10px 0px;
+        padding: 60px 20px;
     }
+    
     .call-to-action .image-content {
         width: 100%;
     }

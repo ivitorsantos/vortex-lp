@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import LOGO from '../../img/logo.svg'
+import WhatsappMessage from '@/app/components/WhatsappMessage'
 
 export default function Footer() {
     return (
@@ -25,6 +26,8 @@ export default function Footer() {
             <div className='copyright'>
                 <p>2023 © Vortex LPs - Creative Consulting Business </p>
             </div>
+
+            <WhatsappMessage />
         </footer>
     )
 }

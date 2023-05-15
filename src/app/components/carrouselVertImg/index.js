@@ -26,7 +26,7 @@ export default function CarrouselVertImg({imagens, widthCarrousel, heightCarrous
                 <motion.div className='inner' drag='x' dragConstraints={{right: 0, left: -width}} initial={{x: 250}} animate={{x:0}} transition={{duration: 0.67}}>
                    {imagens.map(item => (
                         <motion.div className='item' key={item}>
-                            <Image src={item} alt={item} style={{height:`${heightCarrousel}px !important`}}/>
+                            <Image src={item} alt={'foto'} style={{height:`${heightCarrousel}px !important`}}/>
                         </motion.div>
                    ))}
                 </motion.div>

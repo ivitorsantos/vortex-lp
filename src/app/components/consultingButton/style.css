@@ -2,4 +2,11 @@
     padding: 10px 25px;
     border-radius: 45px;
     text-decoration: none;
+
+    transition: ease-in-out 0.2s all;
+}
+
+.consulting-button:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
 }
